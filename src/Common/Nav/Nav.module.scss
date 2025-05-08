@@ -1,0 +1,19 @@
+.nav {
+  display: inline-flex;
+  background-color: #f5ddd8;
+  width: 100vw;
+  border-bottom: 2px solid #dbc0d0;
+
+  ul {
+    padding: 0px 15px;
+    a {
+      text-decoration: none;
+      color: black !important;
+    }
+    .active{
+      font-weight: 800;
+      text-decoration: underline;
+    }
+  }
+}
+
