@@ -1,0 +1,87 @@
+/* flexbox */
+
+.dropdown {
+  margin-top: 5px;
+  background-color: white;
+}
+
+.h5 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-decoration: underline
+}
+
+.parent {
+ width: 100%;
+ min-height: 200px;
+ border: 1px solid black;
+  background-color: #d1c5c5;
+ margin-top: 20px;
+}
+
+.div {
+  margin: 5px;
+  border: 1px solid black;
+  width: 25%;
+  height: 30px;
+  line-height:  30px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #eddfdf;
+}
+
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spaceAround {
+  display: flex;
+  justify-content: space-around;
+}
+
+.spaceEvenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row{
+  flex-direction: row;
+}
+.rowReverse{
+  flex-direction: row-reverse;
+}
+.column{
+  flex-direction: column;
+}
+.columnReverse{
+  flex-direction: column-reverse;
+}
+
+.flexStartAlign {
+  align-items: flex-start;
+}
+
+.flexEndAlign {
+  align-items: flex-end;
+}
+.centerAlign {
+  align-items: center;
+}
+.baselineAlign {
+  align-items: baseline;
+}
+.stretchAlign {
+  align-items: stretch;
+}
+

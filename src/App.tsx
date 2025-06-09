@@ -2,11 +2,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Calculator from './Calculator';
 import Home from './Home';
 
-import classNames from 'classnames';
 import NavBar from './Common/Nav';
 import InfiniteScroll from './InfiniteScroll';
 import ReactInfiniteScroll from './InfiniteScroll/react';
 import VanillaInfiniteScroll from './InfiniteScroll/vanills';
+import CSSExamples from './CSS';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           <Route path="react" element={<ReactInfiniteScroll />} />
           <Route path="vanilla" element={<VanillaInfiniteScroll />} />
         </Route>
+        <Route path="/css" element={<CSSExamples />} />
       </Routes>
     </BrowserRouter>
   );

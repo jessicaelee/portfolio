@@ -15,6 +15,9 @@ function NavBar() {
     <ul>
       <Link to="/infinite_scroll" className={pathname === "/infinite_scroll" ? styles.active : ""}>Infinite Scroll</Link>
     </ul>
+    <ul>
+      <Link to="/css" className={pathname === "/css" ? styles.active : ""}>CSS Examples</Link>
+    </ul>
   </nav >)
 };
 

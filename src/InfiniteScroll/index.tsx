@@ -17,8 +17,6 @@ function InfiniteScroll() {
       </ul>
     </div>
     <Outlet />
-
-
   </Page>
 };
 
