@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-columns: 3fr 50% 40%;
+  grid-auto-rows: 80px;
+  row-gap: 5px;
+  column-gap: 20px;
+  gap: 5px 20px;
+
+
+  /* other styling */
+  border: 1px solid black;
+  // margin: auto;
+  padding: 5px;
+}
+
+.children {
+  /* other styling*/
+  border: 1px solid #a49eba;
+}

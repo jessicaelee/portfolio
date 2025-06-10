@@ -8,6 +8,8 @@ import ReactInfiniteScroll from './InfiniteScroll/react';
 import VanillaInfiniteScroll from './InfiniteScroll/vanills';
 import CSSExamples from './CSS';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Dropdown from './Dropdown';
+import Accordion from './Accordion';
 
 
 function App() {
@@ -22,6 +24,9 @@ function App() {
           <Route path="vanilla" element={<VanillaInfiniteScroll />} />
         </Route>
         <Route path="/css" element={<CSSExamples />} />
+        <Route path="/dropdown" element={<Dropdown />} />
+        <Route path="/accordion" element={<Accordion />} />
+
       </Routes>
     </BrowserRouter>
   );

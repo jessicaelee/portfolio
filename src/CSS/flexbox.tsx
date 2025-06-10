@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Dropdown from 'react-bootstrap/Dropdown';
 import classNames from "classnames";
-import styles from "./css.module.scss"
+import styles from "./flexbox.module.scss"
 
 function FlexBoxExamples() {
   const [justifyContent, setJustifyContent] = useState("flexStart")

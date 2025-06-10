@@ -1,0 +1,26 @@
+.dropdownContainer {
+  margin-top: 25px;
+  min-height: 150px;
+}
+
+.dropdownParent {
+  width: 80%;
+  border: 2px solid grey;
+  display: flex;
+  justify-content: space-around;
+  &:hover {
+    font-weight: 600;
+    cursor: pointer
+  }
+}
+
+.dropdownChildren {
+  width: 80%;
+  border: 1px solid grey;
+  height: 50px;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
